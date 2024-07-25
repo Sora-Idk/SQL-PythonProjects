@@ -23,7 +23,7 @@ def create_server_connection(host_name, user_name, user_password):
         connection = sql.connect(
             host = host_name,
             user = user_name,
-            passwd = 'Aku@1234',
+            passwd = 'abc_1234',
         )
         print("MySQL Database connection successful")
 
